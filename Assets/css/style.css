@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.div-Background {
+    background: no-repeat url(../Images/Background/slider\ bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+    align-items: center;
+}
+
+.div-sec {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3vw;
+}
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5vw 10vw;
+}
+
+.div-header-adds {
+    display: flex;
+}
+
+.icon {
+    margin-right: 0.5vw;
+    width: 0.8vw;
+}
+
+.logo {
+    width: 7vw;
+}
+
+.headerText {
+    font-size: 0.8vw;
+}
+
+.hamMenu {
+    width: 1.5vw;
+}
+
+.car {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 42vw;
+}
+
+.text {
+    font-size: 5vw;
+    width: fit-content;
+    margin-left: 7vw;
+    margin-top: 3vw;
+    line-height: 5vw;
+}
+
+.span {
+    color: orange;
+}
+
+.span1 {
+    font-weight: 700;
+}
+
+.text1 {
+    font-size: 1.5vw;
+    margin-right: 6vw;
+    margin-top: 8vw;
+}
+
+.orange-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.8vw 1.8vw;
+    border-radius: 10px;
+    font-size: 1vw;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.div-sec1 {
+    display: flex;
+    justify-content: end;
+    margin-right: 16.5vw;
+}
+
+.div-sec2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13vw;
+    padding-inline: 10vw;
+}
+
+.text2 {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.text2-1 {
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.div-img {
+    height: 16vw;
+    width: fit-content;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    text-align: center;
+}
+
+.text3 {
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-top: 1vw;
+}
+
+.img {
+    width: 100%;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.div-headersection {
+    display: flex;
+    width: 100%;
+    gap: 0.3vw;
+}
+
+.div-img:hover {
+    background-color: orange;
+}
