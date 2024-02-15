@@ -172,18 +172,18 @@ html {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin-left: 6vw;
-    margin-top: 4vw;
-    height: 24vw;
-    width: 24vw;
+    margin-top: 5vw;
+    height: 26vw;
+    width: 26vw;
 }
 
 .square {
     border: 2px solid orange;
     padding: 10px;
     position: absolute;
-    height: 24vw;
-    width: 24vw;
-    top: 61vw;
+    height: 26vw;
+    width: 26vw;
+    top: 62vw;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -222,3 +222,246 @@ h6 {
     font-weight: 500;
     color: gray;
 }
+
+.line {
+    height: 0.2vw;
+    width: 6vw;
+    background-color: orange;
+    border-radius: 20vw;
+}
+
+.div-sectionsq  {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3vw 23vw;
+    
+}
+
+.img3 {
+    height: 8.5vw;
+    border-radius: 1vw;
+}
+
+.div-metalsquare {
+    position: relative;
+    display: inline-block;
+}
+
+.text5 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2vw
+}
+
+.title1 {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.button1 {
+    font-size: 1.1vw;
+    height: 3vw;
+    width: 8vw;
+    border-radius: 0.5vw;
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+}
+
+.button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.div-carSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.headerText1 {
+    font-weight: 600;
+font-size: 2vw;
+margin: 0;
+}
+
+.div-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: red; */
+    gap: 4vw;
+}
+
+.button2 {
+    font-size: 1vw;
+    height: 3vw;
+    font-weight: 500;
+    border-radius: 0.5vw;
+    border: none;
+    color: gray;
+    background-color: white;
+    border: 2px solid white;
+padding-inline: 1vw;
+}
+
+.button2:hover {
+    font-weight: 500;
+    color: orange;
+    background-color: white;
+    border: 2px solid orange;
+}
+
+.div-carSections {
+    width: 100%;
+    height: fit-content;
+}
+
+.div-oneSection {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.08);   
+width: fit-content;
+height: fit-content;
+border-radius: 0.6vw;
+
+}
+
+.carImg {
+    border-radius: 0.6vw 0.6vw 0vw 0vw;
+    width:100%;
+    
+}
+
+.headerText2 {
+font-size: 1.3vw;
+font-weight: 600;
+margin-left: 0.5vw;
+margin-top: 0.5vw;
+}
+
+.title2 {
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+}
+
+.title3 {
+    margin-left: 0.5vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: orange;
+    margin-top: 0.2vw;
+}
+
+hr {
+    margin: 1vw 1vw;
+}
+
+.div-iconset {
+    display: flex;
+    width: 100%;
+}
+
+.div-inonscar {
+    display: flex;
+    white-space: nowrap;
+    margin: 1vw 1vw;
+}
+
+.button3 {
+    font-size: 1.1vw;
+    height: 3vw;
+    width: 90%;
+    border-radius: 0.5vw;
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-bottom:1vw;
+}
+
+.button3:hover {
+    background-color: orange;
+    color: white;
+}
+
+.div-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-carSections {
+    padding: 2vw 4vw 4vw 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-oneSection:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6), 0 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.button4 {
+    font-size: 1.1vw;
+    height: 3.5vw;
+    width: 15vw;
+    border-radius: 0.5vw;
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-bottom: 4vw;
+}
+
+.button4:hover {
+    background-color: orange;
+    color: white;
+}
+
+.div-afnTransport {
+    position: relative;
+    background: url(../Images/Background/Group70.png);
+    background-size: cover;
+    background-position: center;
+    height: 44vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.afnTransport {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+
+.img0 {
+    width: 75%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 6vw;
+}
+
+.headerText3 {
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    font-size: 1.8vw;
+    font-weight: 600;
+    margin-top: 2vw;
+    left: 20%;
+}
+
