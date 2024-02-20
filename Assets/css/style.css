@@ -624,17 +624,7 @@ align-items: center;
     height: 20vw;
 }
 
-
-
 /*  */
-
-
-
-
-
-
-
-
 
 .cw-accordion {
  width: 100%;
@@ -755,6 +745,14 @@ font-size: 1vw;
     color:orange;
 }
 
+.orange-button:hover {
+    text-decoration: none;
+}
+
+.orange-button {
+    text-decoration: none;
+}
+
 .space {
     margin-left: 0.5vw;
 }
@@ -768,4 +766,222 @@ font-size: 1vw;
     width: 100%;
     height: fit-content;
     justify-content: space-around;
+}
+
+.div-Background1 {
+    background-color: #282828;
+}
+
+.white {
+    color: white;
+}
+
+.img5 {
+    position: relative;
+    width: 100%;
+    height: 18vw;
+}
+
+.div-texttop{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divsectiontop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squarediv{
+    position: absolute;
+    display: flex;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 1vw;
+    height: 7vw;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+    padding-inline: 5vw;
+}
+
+.textgroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.vertical-hr {
+    height: 100px;
+    border: none;
+    border-left: 1px solid rgb(201, 201, 201);
+    margin: 0 20px; 
+}
+
+.text8 {
+    font-weight: 600;
+}
+
+.salesection {
+    margin-top: 7vw;
+}
+
+.nospace {
+    margin-top: -3vw;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.text9 {
+    color: #000;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.orange {
+    color: orange;
+    font-weight: 500;
+}
+
+.choosesection {
+    margin-top: 2vw;
+    padding-inline: 10vw;
+}
+
+.divgroup{
+    display: flex;
+    width: 100%;
+    padding-inline: 10vw;
+    gap: 5vw;
+    margin-top: 2vw;
+}
+
+.divtextsections {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.divcarimage{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.divbutoonflex {
+    display: flex;
+}
+
+.demo {
+    font-size: 1.5vw;
+}
+
+.divbutoonflex{
+    display: flex;
+    gap: 2vw;
+}
+
+.demo5 {
+    width: 30vw;
+}
+
+.carsimg {
+    margin-top: 1vw;
+    display: flex;
+    width: 100%;
+    gap: 1vw;
+
+}
+
+.carsimg img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5vw;
+    -webkit-border-radius: 0.5vw;
+    -moz-border-radius: 0.5vw;
+    -ms-border-radius: 0.5vw;
+    -o-border-radius: 0.5vw;
+}
+
+.border {
+    border-radius: 0.5vw;
+    -webkit-border-radius: 0.5vw;
+    -moz-border-radius: 0.5vw;
+    -ms-border-radius: 0.5vw;
+    -o-border-radius: 0.5vw;
+}
+
+.demo8 {
+    font-size: 1vw
+}
+
+.divbarsec {
+    padding-inline: 10vw;
+}
+
+table {
+    background-color: #ececec;
+    width: 100%;
+    height: 13vw;
+    border-collapse: collapse;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+}
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+.textsecstitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.div-allsecgroup {
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon1 {
+    font-size: 2vw;
+}
+
+.text10 {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.gray {
+    color: gray;
+}
+
+.secgroup3 {
+    font-weight: 600;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    display: flex;
+    gap: 3vw;
+    font-size: 1.3vw; padding-inline: 10vw;
 }
